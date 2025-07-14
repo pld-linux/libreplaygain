@@ -49,7 +49,7 @@ Statyczna wersja biblioteki ReplayGain.
 
 %prep
 %setup -q -n libreplaygain_r%{rev}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %cmake
